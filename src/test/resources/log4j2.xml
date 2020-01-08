@@ -2,7 +2,6 @@
 <Configuration status="WARN">
   <Properties>
     <Property name="log-path">./log</Property>
-    <Property name="org.jooq.Constants.level">WARNING</Property>
   </Properties>
   <Appenders>
     <Console name="console" target="SYSTEM_OUT">
@@ -18,7 +17,7 @@
   </Appenders>
   <Loggers>
     <Logger name="root" level="warn" additivity="false">
-      <appender-ref ref="RollingFile" level="info" />
+      <appender-ref ref="RollingFile" level="infddd222222222o" />
     </Logger>
     <Root level="warn" additivity="false">
       <AppenderRef ref="console" />
